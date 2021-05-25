@@ -1,0 +1,208 @@
+img {
+    max-width: 100%;
+}
+
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, figcaption, textarea, input {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header  */
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.buy-button {
+    padding: 4px 20px;
+    font-weight: 500;
+    transition: .4s;
+    font-size: 20px;
+    border: 2px solid #6278df;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #6278df;
+    color: white;
+    box-shadow: 0px 0px 20px 0px #6278df;
+}
+
+
+/* Slider-Section */
+
+.slider-section {
+    background: url(/Images/mbr-10.jpg) no-repeat center center;
+    padding: 150px 0px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: -1;
+}
+
+.slider-caption p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.slider-caption h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 240px;
+    margin-left: -25px;
+    margin-top: 30px;
+}
+
+.slider-caption .btn:hover{
+    box-shadow: 0px 0px 20px 0px #6278df;
+    background-color: #fff;
+    color: #6278df ;
+}
+
+
+.slider-caption .form-control {
+    padding: 16px 20px;
+    width: 350px;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+.number-item h1 {
+    font-size: 55px;
+}
+
+.number-item p {
+    font-size: 20px;
+    color: #767676;
+}
+
+/* Health Section  */
+
+.health-section {
+    background-color: #f7f9ff;
+}
+
+.health-text h1 {
+    font-size: 40px;
+    margin-top: 130px;
+}
+
+.health-text p {
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-right: 20px;
+}
+
+/* Application-Section */
+
+.application-item {
+    transition: .4s;
+}
+
+.application-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 #bdbbbb65;
+}
+
+.application-text h1 {
+    font-size: 47px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.application-text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #767676;
+}
+
+.application-item {
+    height: 300px;
+    width: auto;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+.item-image {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.item-image img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+.item-text {
+    width: 60%;
+    padding: 26px;
+}
+
+.item-text h4 {
+    font-size: 22px;
+}
+
+.item-text p {
+    font-size: 18px;
+    color: #767676;
+}
+
+/* Gallary */
+
+.gallery-caption h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.gallery {
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #6279df86;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.gallery:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
