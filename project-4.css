@@ -206,3 +206,245 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, figcaption, tex
     opacity: 1;
     visibility: visible;
 }
+
+
+/* pricing-header */
+
+.pricing-section {
+    background-color: #f7f9ff;
+}
+
+.pricing-header h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.pricing-header p {
+    color: #767676;
+    font-size: 24px;
+}
+
+.pricing-table h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pricing-table p {
+    font-size: 25px;
+    color: #767676;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.pricing-table ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pricing-table ul li {
+    padding: 20px 0px;
+    font-size: 20px;
+    color: #767676;
+}
+
+.pricing-table ul li span {
+    color: #6279df;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+.pricing-button a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #4e68db;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(98 120 223 / 59%);
+    padding: 15px 70px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.pricing-table:hover .pricing-button a {
+    background-color: #546dda;
+    color: white;
+}
+
+.pricing-table:hover .pricing-button a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Feedback  */
+
+.feedback {
+    background-color: #fff;
+}
+
+.feedback-text span {
+    font-size: 70px;
+    color: #76767676;
+    opacity: .2;
+}
+
+.feedback-text h1 {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.p-text {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.user-bio {
+    width: 250px;
+    margin: auto;
+}
+
+.user-bio img {
+    width: 70px;
+    margin-right: 15px;
+}
+
+.info {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.info p {
+    margin-top: -5px;
+    color: #767676;
+}
+
+/* Team  */
+
+.team {
+    background-color: #f7f9ff;
+}
+
+.team-card {
+    padding-top: 100px;
+}
+
+.card img {
+    margin-top: -65px;
+    margin-left: 15px;
+    width: 120px;
+}
+
+.card-body p {
+    color: #767676;
+    font-size: 16px;
+}
+
+.card-body h6 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-body a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #767676;
+    transition: .4s;
+}
+
+.card-body a:hover {
+    background-color: #615e5e;
+    color: white;
+}
+
+/* contact */
+
+.contact-card {
+    width: 80%;
+    margin: auto;
+}
+
+/* App  */
+
+.app .lead {
+    font-size: 25px;
+    color: #767676;
+}
+
+.app h1 {
+    font-weight: 400;
+    width: 660px;
+    margin: auto;
+    font-size: 48px;
+}
+
+.get-app {
+    width: 300px;
+    margin-left: auto;
+    margin-right: -30px;
+}
+
+.get-app span {
+    font-size: 30px;
+}
+
+.get-app a {
+    font-size: 25px;
+    font-weight: 500;
+    border: 2px solid #5ba533;
+    color: #5ba533;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+.get-app a:hover {
+    background-color: #5ba533;
+    box-shadow: 0px 0px 20px 0px #5ba533;
+    color: white;
+}
+
+.get-app2 span {
+    font-size: 30px;
+}
+
+.get-app2 a {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    background-color: #5ba533;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: .4s;
+    box-shadow: 0px 0px 20px 0px #5ba533;
+    transition: .4s;
+}
+
+.get-app2 a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+/* Footer  */
+.footer{
+background-color: rgba(218, 216, 216, 0.993);
+}
+.footer p{
+    margin-bottom: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.footer a {
+    color: #767676;
+    text-decoration: none;
+    transition: .4s;
+}
+.footer a:hover{
+    color: black;
+}
+
